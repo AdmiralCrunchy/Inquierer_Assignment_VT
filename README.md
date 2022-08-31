@@ -39,3 +39,5 @@ To run this application is easy enough you have to go into the root file and run
 repository: https://github.com/AdmiralCrunchy/Inquierer_Assignment_VT
 
 Here is the video link to the screencastify drive: https://drive.google.com/file/d/1DVONei-Jrr4GJApXyhyYWQdHCek1jN32/view 
+
+The Example Readme: https://github.com/AdmiralCrunchy/Inquierer_Assignment_VT/blob/main/Project-Redo.md
