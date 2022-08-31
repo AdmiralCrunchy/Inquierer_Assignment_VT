@@ -34,6 +34,16 @@ inquirer.prompt([
         name:"standOut",
     },
     {
+        type: "input",
+        message:"What is the command line that will get this application running?",
+        name:"appRun",
+    },
+    {
+        type: "input",
+        message:"Are there any command lines that you can use to test the application? <br> If not then type NONE.",
+        name:"test",
+    },
+    {
         type:"input",
         message:"Input the url of screenshot.",
         name:"imgShot",

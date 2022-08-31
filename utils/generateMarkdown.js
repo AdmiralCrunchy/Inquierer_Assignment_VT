@@ -90,39 +90,47 @@ function generateMarkdown(ans) {
 
 [Description](#description) <br>
 
-[Problems Solved](#solved) <br>
+[Instructions](#inscructions) <br>
 
-[Life Lesson](#lesson) <br>
+[Contribute](#contirbute) <br> 
 
-[Stand Out](#stand) <br>
+[Screenshot](#screenshot) <br> 
 
-[Help Out](#help) <br>
-
-[Screenshot](#screenshot) <br>
-
-[Licenses](#license) <br>
+[License](#license) <br>
 
 
-## Description
+<a name="description"> ## Description
 
 
-<a name="description"> ${ans.projDescript}
+${ans.projDescript}
 
 ### What problems does this project solve?
 
-<a name="solved"> ${ans.probSolve}
+${ans.probSolve}
 
 ### What did we learn along the way?
 
-<a name="lesson"> ${ans.lifeLesson}
+${ans.lifeLesson}
 
 ### What makes this project stand out?
 
-<a name="description"> ${ans.standOut}
+${ans.standOut}
 
-## How to Contribute
+<a name="instruction"> ## Instructions
 
-<a name="help"> ${ans.helpOut}
+The following is the download instructions needed to get this application running.
+
+### Usage Information
+
+The command that you will need to use to get this application running is: ${ans.appRun}
+
+### Test Instructions
+
+Testing is done with the following command: ${ans.test}
+
+<a name="contribute"> ## How to Contribute
+
+${ans.helpOut}
 
 Here is a link to my GitHub in case you would like to contribute <a href="${ans.gitHub}"> LINK HERE <a>
 
@@ -130,7 +138,7 @@ Here is a link to my GitHub in case you would like to contribute <a href="${ans.
 
 <img src = "${ans.imgShot}" alt = "Screenshot">
 
-## License
+<a name="license"> ## License
 
 ${renderLicenseSection(ans.licenseType)}
 
