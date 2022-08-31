@@ -40,7 +40,7 @@ inquirer.prompt([
     },
     {
         type: "input",
-        message:"Are there any command lines that you can use to test the application? <br> If not then type NONE.",
+        message:"Are there any command lines that you can use to test the application? If not then type NONE.",
         name:"test",
     },
     {

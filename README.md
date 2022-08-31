@@ -5,6 +5,9 @@
 
 This is the 9th Module for the University of Washington Bootcamp, that was due on July 19th 2022. The end goal of this assignment was to create a Readme Generator that created a professional README.md file to the specifications below:
 
+
+Parameters
+
 GIVEN a command-line application that accepts user input
 WHEN I am prompted for information about my application repository
 THEN a high-quality, professional README.md is generated with the title of my project and sections entitled Description, Table of Contents, Installation, Usage, License, Contributing, Tests, and Questions
@@ -25,3 +28,14 @@ THEN I am taken to the corresponding section of the README
 The guide that was provided to me is linked below.
 
 [How to create a Professional README](https://coding-boot-camp.github.io/full-stack/github/professional-readme-guide)
+
+
+## Instructions
+
+To run this application is easy enough you have to go into the root file and rund the command line : node index.js
+
+## Links & Video
+
+repository: https://github.com/AdmiralCrunchy/Inquierer_Assignment_VT
+
+Here is the video link to the screencastify drive: https://drive.google.com/file/d/1DVONei-Jrr4GJApXyhyYWQdHCek1jN32/view 

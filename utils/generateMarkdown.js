@@ -38,23 +38,23 @@ function renderLicenseLink(license) {
   let licenseLink = "";
   if(license === 'Apache')
   {
-    licenseLink = `(https://www.apache.org/licenses/)`
+    licenseLink = `https://www.apache.org/licenses/`
   }
   else if(license === 'GNU OS')
   {
-    licenseLink = `(https://www.gnu.org/graphics/heckert_gnu.transp.small.png)`
+    licenseLink = `https://www.gnu.org/graphics/heckert_gnu.transp.small.png`
   }
   else if(license === 'Rust')
   {
-    licenseLink = `(https://rust-lang.github.io/api-guidelines/necessities.html#crate-and-its-dependencies-have-a-permissive-license-c-permissive)`
+    licenseLink = `https://rust-lang.github.io/api-guidelines/necessities.html#crate-and-its-dependencies-have-a-permissive-license-c-permissive`
   }
   else if(license === 'MIT')
   {
-    licenseLink = `(https://choosealicense.com/licenses/mit/)`
+    licenseLink = `https://choosealicense.com/licenses/mit/`
   }
   else if(license === 'GNU Public')
   {
-    licenseLink = `(https://choosealicense.com/licenses/gpl-3.0/)`
+    licenseLink = `https://choosealicense.com/licenses/gpl-3.0/`
   }
   else
   {
@@ -99,7 +99,8 @@ function generateMarkdown(ans) {
 [License](#license) <br>
 
 
-<a name="description"> ## Description
+<a name="description"> 
+## Description
 
 
 ${ans.projDescript}
@@ -116,7 +117,8 @@ ${ans.lifeLesson}
 
 ${ans.standOut}
 
-<a name="instruction"> ## Instructions
+<a name="instruction"> 
+## Instructions
 
 The following is the download instructions needed to get this application running.
 
@@ -128,13 +130,15 @@ The command that you will need to use to get this application running is: ${ans.
 
 Testing is done with the following command: ${ans.test}
 
-<a name="contribute"> ## How to Contribute
+<a name="contribute"> 
+## How to Contribute
 
 ${ans.helpOut}
 
 Here is a link to my GitHub in case you would like to contribute <a href="${ans.gitHub}"> LINK HERE <a>
 
-<a name="screenshot"> ## Screenshots
+<a name="screenshot"> 
+## Screenshots
 
 <img src = "${ans.imgShot}" alt = "Screenshot">
 
