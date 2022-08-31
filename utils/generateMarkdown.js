@@ -61,7 +61,7 @@ function renderLicenseLink(license) {
     licenseLink = ``;
   }
 
-  return licenseLink
+  return `<a href="${licenseLink}"> License Link</a>`
 
 }
 
@@ -90,16 +90,17 @@ function generateMarkdown(ans) {
 
 [Description](#description) <br>
 
-[Instructions](#inscructions) <br>
+[Instructions](#instruction) <br>
 
-[Contribute](#contirbute) <br> 
+[Contribute](#contribute) <br> 
 
 [Screenshot](#screenshot) <br> 
 
 [License](#license) <br>
 
 
-<a name="description"> 
+<a name="description"> </a>
+
 ## Description
 
 
@@ -117,7 +118,8 @@ ${ans.lifeLesson}
 
 ${ans.standOut}
 
-<a name="instruction"> 
+<a name="instruction"> </a>
+
 ## Instructions
 
 The following is the download instructions needed to get this application running.
@@ -130,19 +132,23 @@ The command that you will need to use to get this application running is: ${ans.
 
 Testing is done with the following command: ${ans.test}
 
-<a name="contribute"> 
+<a name="#contribute"> </a>
+
 ## How to Contribute
 
 ${ans.helpOut}
 
 Here is a link to my GitHub in case you would like to contribute <a href="${ans.gitHub}"> LINK HERE <a>
 
-<a name="screenshot"> 
+<a name="screenshot"> </a>
+
 ## Screenshots
 
 <img src = "${ans.imgShot}" alt = "Screenshot">
 
-<a name="license"> ## License
+<a name="license"> </a>
+
+## License
 
 ${renderLicenseSection(ans.licenseType)}
 
