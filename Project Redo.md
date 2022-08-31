@@ -63,5 +63,5 @@ Here is a link to my GitHub in case you would like to contribute <a href="https:
   
   ## License
 
-(https://img.shields.io/badge/license-MIT-blueviolet) https://choosealicense.com/licenses/mit/
+![Alt = badge](https://img.shields.io/badge/license-MIT-blueviolet) https://choosealicense.com/licenses/mit/
 
