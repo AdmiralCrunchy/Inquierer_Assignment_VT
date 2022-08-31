@@ -4,7 +4,7 @@
 
 [Description](#description) <br>
 
-[Instructions](#inscructions) <br>
+[Instructions](#inscruction) <br>
 
 [Contribute](#contirbute) <br> 
 
