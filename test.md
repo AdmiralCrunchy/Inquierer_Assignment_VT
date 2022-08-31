@@ -46,7 +46,7 @@ The command that you will need to use to get this application running is: test
 
 Testing is done with the following command: None
 
-<a name="#contribute"> </a>
+<a name="contribute"> </a>
 
 ## How to Contribute
 
