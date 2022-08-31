@@ -13,7 +13,7 @@
 [License](#license) <br>
 
 
-<a name="description"> 
+<a name="description"> </a>
 ## Description
 
 
@@ -51,7 +51,8 @@ By grading this and hopfully if I've done my job correctly then I get a passing 
 
 Here is a link to my GitHub in case you would like to contribute <a href="https://github.com/AdmiralCrunchy"> LINK HERE <a>
 
-<a name="screenshot"> 
+<a name="screenshot">
+  
 ## Screenshots
 
 <img src = "https://lh3.googleusercontent.com/2hDpuTi-0AMKvoZJGd-yKWvK4tKdQr_kLIpB_qSeMau2TNGCNidAosMEvrEXFO9G6tmlFlPQplpwiqirgrIPWnCKMvElaYgI-HiVvXc=w600" alt = "Screenshot">
