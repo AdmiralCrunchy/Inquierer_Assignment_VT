@@ -6,7 +6,7 @@
 
 [Instructions](#inscruction) <br>
 
-[Contribute](#contirbute) <br> 
+[Contribute](#contribute) <br> 
 
 [Screenshot](#screenshot) <br> 
 
