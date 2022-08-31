@@ -87,13 +87,20 @@ function generateMarkdown(ans) {
   return `# ${ans.titleInput}
 
 ## Table of Contents
-[Description](#description)
-[Problems Solved](#solved)
-[Life Lesson](#lesson)
-[Stand Out](#stand)
-[Help Out](#help)
-[Screenshot](#screenshot)
-[Licenses](#license)
+
+[Description](#description) <br>
+
+[Problems Solved](#solved) <br>
+
+[Life Lesson](#lesson) <br>
+
+[Stand Out](#stand) <br>
+
+[Help Out](#help) <br>
+
+[Screenshot](#screenshot) <br>
+
+[Licenses](#license) <br>
 
 
 ## Description
@@ -117,9 +124,11 @@ function generateMarkdown(ans) {
 
 <a name="help"> ${ans.helpOut}
 
+Here is a link to my GitHub in case you would like to contribute <a href="${ans.gitHub}"> LINK HERE <a>
+
 <a name="screenshot"> ## Screenshots
 
-![Alt = Screenshot]${ans.imgShot}
+<img src = "${ans.imgShot}" alt = "Screenshot">
 
 ## License
 

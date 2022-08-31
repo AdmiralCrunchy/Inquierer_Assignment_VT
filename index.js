@@ -44,6 +44,11 @@ inquirer.prompt([
         name:"helpOut",
     },
     {
+        type: "input",
+        message:"What is your GitHub account url?",
+        name: 'gitHub',
+    },
+    {
         type:"list",
         message:"Which of these licenses would you like to apply to your project?",
         name:"licenseType",

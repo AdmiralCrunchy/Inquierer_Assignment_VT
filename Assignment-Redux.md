@@ -2,11 +2,17 @@
 
 ## Table of Contents
 [Description](#description)
+
 [Problems Solved](#solved)
+
 [Life Lesson](#lesson)
+
 [Stand Out](#stand)
+
 [Help Out](#help)
+
 [Screenshot](#screenshot)
+
 [Licenses](#license)
 
 
