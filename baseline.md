@@ -20,8 +20,4 @@ What makes this project stand out?
 
 ${ans.standOut}
 
-## Badges
-
-## Features
-
 ## How to Contribute

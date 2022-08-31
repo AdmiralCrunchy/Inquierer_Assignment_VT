@@ -38,23 +38,23 @@ function renderLicenseLink(license) {
   let licenseLink = "";
   if(license === 'Apache')
   {
-    licenseLink = `![Alt = licenseLink](https://www.apache.org/licenses/)`
+    licenseLink = `(https://www.apache.org/licenses/)`
   }
   else if(license === 'GNU OS')
   {
-    licenseLink = `![Alt = licenseLink](https://www.gnu.org/graphics/heckert_gnu.transp.small.png)`
+    licenseLink = `(https://www.gnu.org/graphics/heckert_gnu.transp.small.png)`
   }
   else if(license === 'Rust')
   {
-    licenseLink = `![Alt = licenseLink](https://rust-lang.github.io/api-guidelines/necessities.html#crate-and-its-dependencies-have-a-permissive-license-c-permissive)`
+    licenseLink = `(https://rust-lang.github.io/api-guidelines/necessities.html#crate-and-its-dependencies-have-a-permissive-license-c-permissive)`
   }
   else if(license === 'MIT')
   {
-    licenseLink = `![Alt = licenseLink](https://choosealicense.com/licenses/mit/)`
+    licenseLink = `(https://choosealicense.com/licenses/mit/)`
   }
   else if(license === 'GNU Public')
   {
-    licenseLink = `![Alt = licenseLink](https://choosealicense.com/licenses/gpl-3.0/)`
+    licenseLink = `(https://choosealicense.com/licenses/gpl-3.0/)`
   }
   else
   {
@@ -73,7 +73,7 @@ function renderLicenseSection(license) {
 
   if(license === 'Apache' || 'GNU OS' || 'Rust' || 'MIT' || 'GNU Public')
   {
-    results = renderLicenseBadge(license), renderLicenseLink(license) 
+    results = renderLicenseBadge(license) + " " + renderLicenseLink(license) 
   }
   else
   [
@@ -86,27 +86,38 @@ function renderLicenseSection(license) {
 function generateMarkdown(ans) {
   return `# ${ans.titleInput}
 
+## Table of Contents
+[Description](#description)
+[Problems Solved](#solved)
+[Life Lesson](#lesson)
+[Stand Out](#stand)
+[Help Out](#help)
+[Screenshot](#screenshot)
+[Licenses](#license)
+
+
 ## Description
 
-${ans.projDescipt}
+
+<a name="description"> ${ans.projDescript}
 
 ### What problems does this project solve?
 
-${ans.probSolve}
+<a name="solved"> ${ans.probSolve}
 
 ### What did we learn along the way?
 
-${ans.lifeLesson}
+<a name="lesson"> ${ans.lifeLesson}
 
 ### What makes this project stand out?
 
-${ans.standOut}
+<a name="description"> ${ans.standOut}
 
 ## How to Contribute
 
-${ans.helpOut}
+<a name="help"> ${ans.helpOut}
 
-## Screenshots
+<a name="screenshot"> ## Screenshots
 
 ![Alt = Screenshot]${ans.imgShot}
 
