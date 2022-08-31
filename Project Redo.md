@@ -4,7 +4,7 @@
 
 [Description](#description) <br>
 
-[Instructions](#inscruction) <br>
+[Instructions](#instruction) <br>
 
 [Contribute](#contribute) <br> 
 
@@ -31,7 +31,8 @@ That I need to make sure that even when I am tired beyond belief that I still ne
 
 One of the few assignments that I had to come back and refinish. I hope that I as I approach the last leg of this course I can be much more of an asset than what I have been as of late.
 
-<a name="instruction"> 
+<a name="instruction"> </a>
+
 ## Instructions
 
 The following is the download instructions needed to get this application running.
@@ -44,14 +45,15 @@ The command that you will need to use to get this application running is: node i
 
 Testing is done with the following command: NONE
 
-<a name="contribute"> 
+<a name="contribute"> </a>
+  
 ## How to Contribute
 
 By grading this and hopfully if I've done my job correctly then I get a passing grade and can enter the work force in a brand new position.
 
 Here is a link to my GitHub in case you would like to contribute <a href="https://github.com/AdmiralCrunchy"> LINK HERE <a>
 
-<a name="screenshot">
+<a name="screenshot"> </a>
   
 ## Screenshots
 
