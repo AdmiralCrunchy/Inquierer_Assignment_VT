@@ -59,7 +59,9 @@ Here is a link to my GitHub in case you would like to contribute <a href="https:
 
 <img src = "https://lh3.googleusercontent.com/2hDpuTi-0AMKvoZJGd-yKWvK4tKdQr_kLIpB_qSeMau2TNGCNidAosMEvrEXFO9G6tmlFlPQplpwiqirgrIPWnCKMvElaYgI-HiVvXc=w600" alt = "Screenshot">
 
-<a name="license"> ## License
+  <a name="license"></a> 
+  
+  ## License
 
-![Alt = badge](https://img.shields.io/badge/license-MIT-blueviolet) https://choosealicense.com/licenses/mit/
+(https://img.shields.io/badge/license-MIT-blueviolet) https://choosealicense.com/licenses/mit/
 
