@@ -14,10 +14,7 @@
 
 
 <a name="description"> </a>
-<<<<<<< HEAD:Project-Redo.md
 
-=======
->>>>>>> 7133c0fd2f981d178d8f815859f9b2556df64bb2:Project Redo.md
 ## Description
 
 
@@ -49,13 +46,9 @@ The command that you will need to use to get this application running is: node i
 
 Testing is done with the following command: NONE
 
-<<<<<<< HEAD:Project-Redo.md
+
 <a name="#contribute"> </a>
 
-=======
-<a name="contribute"> </a>
-  
->>>>>>> 7133c0fd2f981d178d8f815859f9b2556df64bb2:Project Redo.md
 ## How to Contribute
 
 By grading this and hopfully if I've done my job correctly then I get a passing grade and can enter the work force in a brand new position.
@@ -63,22 +56,13 @@ By grading this and hopfully if I've done my job correctly then I get a passing 
 Here is a link to my GitHub in case you would like to contribute <a href="https://github.com/AdmiralCrunchy"> LINK HERE <a>
 
 <a name="screenshot"> </a>
-<<<<<<< HEAD:Project-Redo.md
 
-=======
-  
->>>>>>> 7133c0fd2f981d178d8f815859f9b2556df64bb2:Project Redo.md
 ## Screenshots
 
 <img src = "https://lh3.googleusercontent.com/2hDpuTi-0AMKvoZJGd-yKWvK4tKdQr_kLIpB_qSeMau2TNGCNidAosMEvrEXFO9G6tmlFlPQplpwiqirgrIPWnCKMvElaYgI-HiVvXc=w600" alt = "Screenshot">
 
-<<<<<<< HEAD:Project-Redo.md
+
 <a name="license"> </a>
-=======
-  <a name="license"></a> 
-  
-  ## License
->>>>>>> 7133c0fd2f981d178d8f815859f9b2556df64bb2:Project Redo.md
 
 ## License
 
